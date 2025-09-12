@@ -1,0 +1,62 @@
+namespace remoteClientHost
+{
+    partial class frmMainClient
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnRequestService = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnRequestService
+            // 
+            this.btnRequestService.Location = new System.Drawing.Point(12, 12);
+            this.btnRequestService.Name = "btnRequestService";
+            this.btnRequestService.Size = new System.Drawing.Size(95, 23);
+            this.btnRequestService.TabIndex = 0;
+            this.btnRequestService.Text = "Request Service";
+            this.btnRequestService.UseVisualStyleBackColor = true;
+            this.btnRequestService.Click += new System.EventHandler(this.btnRequestService_Click);
+            // 
+            // frmMainClient
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.btnRequestService);
+            this.Name = "frmMainClient";
+            this.Text = "Main Client";
+            this.Load += new System.EventHandler(this.frmMainClient_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnRequestService;
+    }
+}
+

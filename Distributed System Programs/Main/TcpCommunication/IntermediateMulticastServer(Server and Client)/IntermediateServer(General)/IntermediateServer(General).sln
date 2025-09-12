@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntermediateServer(General)", "IntermediateServer(General)\IntermediateServer(General).csproj", "{EDCCA1C7-4686-4DD1-883F-DAC2609D833D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCCA1C7-4686-4DD1-883F-DAC2609D833D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCCA1C7-4686-4DD1-883F-DAC2609D833D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCCA1C7-4686-4DD1-883F-DAC2609D833D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCCA1C7-4686-4DD1-883F-DAC2609D833D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
